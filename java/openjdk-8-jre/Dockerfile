@@ -1,8 +1,8 @@
 #
 # OpenJDK Java 8 JRE Minimal Dockerfile
 #
-# https://github.com/jyore/dockerfile/java
-# https://github.com/jyore/dockerfile/java/openjdk-8-jre
+# https://github.com/jyore/docker/java
+# https://github.com/jyore/docker/java/openjdk-8-jre
 #
 
 # Base image using fedora-23 (https://hub.docker.com/r/jyore/fedora-23/)
