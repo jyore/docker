@@ -4,7 +4,7 @@ Docker files for Java enabled containers
 
 
 ## Base Image
-<a href="https://hub.docker.com/r/jyore/fedora-23/">jyore/fedora-23</a>
+<a href="https://hub.docker.com/r/jyore/fedora/">jyore/fedora:23</a>
 
 ## Tags
 

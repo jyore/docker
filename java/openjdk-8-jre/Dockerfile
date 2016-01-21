@@ -5,8 +5,8 @@
 # https://github.com/jyore/docker/java/openjdk-8-jre
 #
 
-# Base image using fedora-23 (https://hub.docker.com/r/jyore/fedora-23/)
-FROM jyore/fedora-23
+# Base image using jyore/fedora:23 (https://hub.docker.com/r/jyore/fedora)
+FROM jyore/fedora:23
 
 # Update OS and install JRE
 RUN dnf update -y && dnf install -y java-1.8.0-openjdk-headless
