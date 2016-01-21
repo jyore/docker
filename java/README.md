@@ -12,3 +12,4 @@ Docker files for Java enabled containers
 
 *    `latest` : Aliases to `openjdk-8-jre` tag
 *    `opendjk-8-jre` : OpenJDK Java 1.8 Runtime
+*    `opendjk-8-jdk` : OpenJDK Java 1.8 SDK
