@@ -15,7 +15,7 @@ RUN dnf update -y && dnf install -y java-1.8.0-openjdk-headless
 WORKDIR /data
 
 # Setup JAVA_HOME
-ENV JAVA_HOME /etc/alternatives/jre_1.8.0_openjdk/bin/
+ENV JAVA_HOME /etc/alternatives/jre_1.8.0_openjdk/
 
 # Default Command (enter a bash shell)
 CMD ["bash"]

@@ -15,7 +15,7 @@ RUN dnf update -y && dnf install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel
 WORKDIR /data
 
 # Setup JAVA_HOME
-ENV JAVA_HOME /etc/alternatives/java_sdk_1.8.0_openjdk/bin/
+ENV JAVA_HOME /etc/alternatives/java_sdk_1.8.0_openjdk/
 
 # Default Command (enter a bash shell)
 CMD ["bash"]
