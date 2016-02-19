@@ -14,6 +14,7 @@ ENV FLYWAY_TARBALL https://bintray.com/artifact/download/business/maven/flyway-c
 
 # Install the Software
 RUN dnf update -y && \
+    dnf install -y tar && \
     mkdir ${FLYWAY_HOME} && \
     curl -L ${FLYWAY_TARBALL} | tar --strip-components=1 -xz -C ${FLYWAY_HOME}
 
