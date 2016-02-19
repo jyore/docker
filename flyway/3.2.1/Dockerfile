@@ -20,7 +20,7 @@ RUN dnf update -y && \
 
 # Prepare Data Volumes
 RUN rm -rf ${FLYWAY_HOME}/conf/* ${FLYWAY_HOME}/sql/* ${FLYWAY_HOME}/jars/*
-VOLUME ${FLYWAY_HOME/conf ${FLYWAY_HOME}/sql ${FLYWAY_HOME}/jars
+VOLUME ${FLYWAY_HOME}/conf ${FLYWAY_HOME}/sql ${FLYWAY_HOME}/jars
 
 # Workdirectory and Entrypoint
 WORKDIR ${FLYWAY_HOME}
